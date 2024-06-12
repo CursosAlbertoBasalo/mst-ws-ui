@@ -1,0 +1,10 @@
+{
+  "name": "@mst/wbc",
+  "version": "0.0.2",
+  "main": "main.js",
+  "files": [
+    "polyfills.js",
+    "main.js",
+    "styles.css"
+  ]
+}

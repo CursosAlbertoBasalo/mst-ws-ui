@@ -17,5 +17,5 @@ import {
 })
 export class LocationComponent {
   value: InputSignal<string> = input.required<string>();
+  //@Input() value: string = '';
 }
-// <mst-ui-location [value]="location"></mst-ui-location>
