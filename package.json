@@ -6,6 +6,9 @@
     "start": "ng serve --project=mst-ui-dev",
     "build": "ng build --project=mst-ui --configuration production",
     "watch": "ng build --watch --configuration development",
+    "prepublish": "npm run build && cd ./projects/mst-ui && npm run release",
+    "publish": "cd ./dist/mst-ui && npm link",
+    "postpublish": "git push --follow-tags origin main",
     "test": "ng test"
   },
   "private": true,
