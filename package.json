@@ -12,6 +12,7 @@
     "postpublish": "git push --follow-tags origin main",
     "prepack": "npm run build:wbc",
     "pack": "cd ./dist/mst-ui-wbc/browser && npm link",
+    "postpack": "git push --follow-tags origin main",
     "test": "ng test"
   },
   "private": true,
